@@ -1,0 +1,2 @@
+hoge: %MYSQL_USER_ID%
+moge: %MYSQL_PASSWD%
