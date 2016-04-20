@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: ./
+    destination: /usr/local/etc/codedeploy-test
+hooks:
+  AfterInstall:
+    - location: scripts/success.sh
+      timeout: 300
+      runas: root
